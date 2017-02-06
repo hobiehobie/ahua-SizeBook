@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Name:"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:hint="Enter name"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:text="Neck: "
+         android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/input_neck"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:hint="Enter neck size (inches)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Bust: "
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/input_bust"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:hint="Enter bust size (inches)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:text="Chest: "
+         android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/input_chest"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:hint="Enter chest size (inches)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:text="Waist: "
+         android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/input_waist"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:hint="Enter waist size (inches)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:text="Hip: "
+         android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/input_hip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:hint="Enter hip size (inches)"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Inseam:"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/input_inseam"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:hint="Enter inseam length (inches)"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Comments: "
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/input_comment"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="end"
+        android:hint="Enter any comments... "
+        android:gravity="top"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+     <TextView
+         android:layout_width="100dp"
+         android:layout_height="45dp"
+         android:text="Date: "
+         android:textSize="35sp"/>
+
+     <EditText
+         android:layout_width="250dp"
+         android:layout_height="45dp"
+         android:hint="YYYY-MM-DD"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="saveButtonClicked"/>
+
+
+
+
+</LinearLayout>
